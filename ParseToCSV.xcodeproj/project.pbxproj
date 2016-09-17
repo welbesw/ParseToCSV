@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAED5A1E898CD54CA87961FF /* libPods-ParseToCSV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8D7D8D4ABBD868A4449587 /* libPods-ParseToCSV.a */; };
+		BEA0BA0F1948E0F50029E9B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0BA0E1948E0F50029E9B9 /* Cocoa.framework */; };
+		BEA0BA191948E0F50029E9B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEA0BA171948E0F50029E9B9 /* InfoPlist.strings */; };
+		BEA0BA1B1948E0F50029E9B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA0BA1A1948E0F50029E9B9 /* main.m */; };
+		BEA0BA1F1948E0F50029E9B9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BEA0BA1D1948E0F50029E9B9 /* Credits.rtf */; };
+		BEA0BA221948E0F50029E9B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA0BA211948E0F50029E9B9 /* AppDelegate.m */; };
+		BEA0BA251948E0F50029E9B9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA0BA231948E0F50029E9B9 /* MainMenu.xib */; };
+		BEA0BA271948E0F50029E9B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA0BA261948E0F50029E9B9 /* Images.xcassets */; };
+		BEA0BA2E1948E0F50029E9B9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0BA2D1948E0F50029E9B9 /* XCTest.framework */; };
+		BEA0BA2F1948E0F50029E9B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0BA0E1948E0F50029E9B9 /* Cocoa.framework */; };
+		BEA0BA371948E0F50029E9B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEA0BA351948E0F50029E9B9 /* InfoPlist.strings */; };
+		BEA0BA391948E0F50029E9B9 /* ParseToCSVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA0BA381948E0F50029E9B9 /* ParseToCSVTests.m */; };
+		BEA0BA441948E3290029E9B9 /* ExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA0BA431948E3290029E9B9 /* ExportManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA0BA301948E0F50029E9B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA0BA031948E0F50029E9B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA0BA0A1948E0F50029E9B9;
+			remoteInfo = ParseToCSV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45217A884D3C4E46A31EBB2D /* Pods-ParseToCSV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseToCSV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseToCSV/Pods-ParseToCSV.debug.xcconfig"; sourceTree = "<group>"; };
+		83BFFA401E817E356D16830D /* Pods-ParseToCSV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseToCSV.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseToCSV/Pods-ParseToCSV.release.xcconfig"; sourceTree = "<group>"; };
+		BEA0BA0B1948E0F50029E9B9 /* ParseToCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseToCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA0BA0E1948E0F50029E9B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BEA0BA111948E0F50029E9B9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BEA0BA121948E0F50029E9B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BEA0BA131948E0F50029E9B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEA0BA161948E0F50029E9B9 /* ParseToCSV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParseToCSV-Info.plist"; sourceTree = "<group>"; };
+		BEA0BA181948E0F50029E9B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEA0BA1A1948E0F50029E9B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA0BA1C1948E0F50029E9B9 /* ParseToCSV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseToCSV-Prefix.pch"; sourceTree = "<group>"; };
+		BEA0BA1E1948E0F50029E9B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BEA0BA201948E0F50029E9B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEA0BA211948E0F50029E9B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEA0BA241948E0F50029E9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BEA0BA261948E0F50029E9B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEA0BA2C1948E0F50029E9B9 /* ParseToCSVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseToCSVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA0BA2D1948E0F50029E9B9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BEA0BA341948E0F50029E9B9 /* ParseToCSVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParseToCSVTests-Info.plist"; sourceTree = "<group>"; };
+		BEA0BA361948E0F50029E9B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEA0BA381948E0F50029E9B9 /* ParseToCSVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseToCSVTests.m; sourceTree = "<group>"; };
+		BEA0BA421948E3290029E9B9 /* ExportManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportManager.h; sourceTree = "<group>"; };
+		BEA0BA431948E3290029E9B9 /* ExportManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExportManager.m; sourceTree = "<group>"; };
+		BEA0BA85194A8B910029E9B9 /* ParseToCSV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ParseToCSV.entitlements; sourceTree = "<group>"; };
+		BF8D7D8D4ABBD868A4449587 /* libPods-ParseToCSV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseToCSV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA0BA081948E0F50029E9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0BA0F1948E0F50029E9B9 /* Cocoa.framework in Frameworks */,
+				AAED5A1E898CD54CA87961FF /* libPods-ParseToCSV.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA0BA291948E0F50029E9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0BA2F1948E0F50029E9B9 /* Cocoa.framework in Frameworks */,
+				BEA0BA2E1948E0F50029E9B9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA0BA021948E0F50029E9B9 = {
+			isa = PBXGroup;
+			children = (
+				BEA0BA141948E0F50029E9B9 /* ParseToCSV */,
+				BEA0BA321948E0F50029E9B9 /* ParseToCSVTests */,
+				BEA0BA0D1948E0F50029E9B9 /* Frameworks */,
+				BEA0BA0C1948E0F50029E9B9 /* Products */,
+				C52850F44D818A0D98EBAEAA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA0BA0C1948E0F50029E9B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0BA0B1948E0F50029E9B9 /* ParseToCSV.app */,
+				BEA0BA2C1948E0F50029E9B9 /* ParseToCSVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA0BA0D1948E0F50029E9B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0BA0E1948E0F50029E9B9 /* Cocoa.framework */,
+				BEA0BA2D1948E0F50029E9B9 /* XCTest.framework */,
+				BEA0BA101948E0F50029E9B9 /* Other Frameworks */,
+				BF8D7D8D4ABBD868A4449587 /* libPods-ParseToCSV.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEA0BA101948E0F50029E9B9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0BA111948E0F50029E9B9 /* AppKit.framework */,
+				BEA0BA121948E0F50029E9B9 /* CoreData.framework */,
+				BEA0BA131948E0F50029E9B9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BEA0BA141948E0F50029E9B9 /* ParseToCSV */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0BA85194A8B910029E9B9 /* ParseToCSV.entitlements */,
+				BEA0BA201948E0F50029E9B9 /* AppDelegate.h */,
+				BEA0BA211948E0F50029E9B9 /* AppDelegate.m */,
+				BEA0BA231948E0F50029E9B9 /* MainMenu.xib */,
+				BEA0BA421948E3290029E9B9 /* ExportManager.h */,
+				BEA0BA431948E3290029E9B9 /* ExportManager.m */,
+				BEA0BA261948E0F50029E9B9 /* Images.xcassets */,
+				BEA0BA151948E0F50029E9B9 /* Supporting Files */,
+			);
+			path = ParseToCSV;
+			sourceTree = "<group>";
+		};
+		BEA0BA151948E0F50029E9B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0BA161948E0F50029E9B9 /* ParseToCSV-Info.plist */,
+				BEA0BA171948E0F50029E9B9 /* InfoPlist.strings */,
+				BEA0BA1A1948E0F50029E9B9 /* main.m */,
+				BEA0BA1C1948E0F50029E9B9 /* ParseToCSV-Prefix.pch */,
+				BEA0BA1D1948E0F50029E9B9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEA0BA321948E0F50029E9B9 /* ParseToCSVTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0BA381948E0F50029E9B9 /* ParseToCSVTests.m */,
+				BEA0BA331948E0F50029E9B9 /* Supporting Files */,
+			);
+			path = ParseToCSVTests;
+			sourceTree = "<group>";
+		};
+		BEA0BA331948E0F50029E9B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0BA341948E0F50029E9B9 /* ParseToCSVTests-Info.plist */,
+				BEA0BA351948E0F50029E9B9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C52850F44D818A0D98EBAEAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45217A884D3C4E46A31EBB2D /* Pods-ParseToCSV.debug.xcconfig */,
+				83BFFA401E817E356D16830D /* Pods-ParseToCSV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA0BA0A1948E0F50029E9B9 /* ParseToCSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA0BA3C1948E0F50029E9B9 /* Build configuration list for PBXNativeTarget "ParseToCSV" */;
+			buildPhases = (
+				7D1ED814ADAC4DBB9BDA7040 /* 📦 Check Pods Manifest.lock */,
+				BEA0BA071948E0F50029E9B9 /* Sources */,
+				BEA0BA081948E0F50029E9B9 /* Frameworks */,
+				BEA0BA091948E0F50029E9B9 /* Resources */,
+				E7F752BA345A6CC505D111F8 /* 📦 Embed Pods Frameworks */,
+				58157A6223F4F9F0004D06DD /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseToCSV;
+			productName = ParseToCSV;
+			productReference = BEA0BA0B1948E0F50029E9B9 /* ParseToCSV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA0BA2B1948E0F50029E9B9 /* ParseToCSVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA0BA3F1948E0F50029E9B9 /* Build configuration list for PBXNativeTarget "ParseToCSVTests" */;
+			buildPhases = (
+				BEA0BA281948E0F50029E9B9 /* Sources */,
+				BEA0BA291948E0F50029E9B9 /* Frameworks */,
+				BEA0BA2A1948E0F50029E9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA0BA311948E0F50029E9B9 /* PBXTargetDependency */,
+			);
+			name = ParseToCSVTests;
+			productName = ParseToCSVTests;
+			productReference = BEA0BA2C1948E0F50029E9B9 /* ParseToCSVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA0BA031948E0F50029E9B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Technomagination, LLC";
+				TargetAttributes = {
+					BEA0BA0A1948E0F50029E9B9 = {
+						DevelopmentTeam = T9FJ9CRG8J;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					BEA0BA2B1948E0F50029E9B9 = {
+						TestTargetID = BEA0BA0A1948E0F50029E9B9;
+					};
+				};
+			};
+			buildConfigurationList = BEA0BA061948E0F50029E9B9 /* Build configuration list for PBXProject "ParseToCSV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA0BA021948E0F50029E9B9;
+			productRefGroup = BEA0BA0C1948E0F50029E9B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA0BA0A1948E0F50029E9B9 /* ParseToCSV */,
+				BEA0BA2B1948E0F50029E9B9 /* ParseToCSVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA0BA091948E0F50029E9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0BA191948E0F50029E9B9 /* InfoPlist.strings in Resources */,
+				BEA0BA271948E0F50029E9B9 /* Images.xcassets in Resources */,
+				BEA0BA1F1948E0F50029E9B9 /* Credits.rtf in Resources */,
+				BEA0BA251948E0F50029E9B9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA0BA2A1948E0F50029E9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0BA371948E0F50029E9B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58157A6223F4F9F0004D06DD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseToCSV/Pods-ParseToCSV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1ED814ADAC4DBB9BDA7040 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F752BA345A6CC505D111F8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseToCSV/Pods-ParseToCSV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA0BA071948E0F50029E9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0BA221948E0F50029E9B9 /* AppDelegate.m in Sources */,
+				BEA0BA441948E3290029E9B9 /* ExportManager.m in Sources */,
+				BEA0BA1B1948E0F50029E9B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA0BA281948E0F50029E9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0BA391948E0F50029E9B9 /* ParseToCSVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA0BA311948E0F50029E9B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA0BA0A1948E0F50029E9B9 /* ParseToCSV */;
+			targetProxy = BEA0BA301948E0F50029E9B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA0BA171948E0F50029E9B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA0BA181948E0F50029E9B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEA0BA1D1948E0F50029E9B9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA0BA1E1948E0F50029E9B9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BEA0BA231948E0F50029E9B9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA0BA241948E0F50029E9B9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BEA0BA351948E0F50029E9B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA0BA361948E0F50029E9B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA0BA3A1948E0F50029E9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEA0BA3B1948E0F50029E9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEA0BA3D1948E0F50029E9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45217A884D3C4E46A31EBB2D /* Pods-ParseToCSV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ParseToCSV/ParseToCSV.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseToCSV/ParseToCSV-Prefix.pch";
+				INFOPLIST_FILE = "ParseToCSV/ParseToCSV-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.technomagination.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEA0BA3E1948E0F50029E9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BFFA401E817E356D16830D /* Pods-ParseToCSV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ParseToCSV/ParseToCSV.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseToCSV/ParseToCSV-Prefix.pch";
+				INFOPLIST_FILE = "ParseToCSV/ParseToCSV-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.technomagination.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BEA0BA401948E0F50029E9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParseToCSV.app/Contents/MacOS/ParseToCSV";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseToCSV/ParseToCSV-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ParseToCSVTests/ParseToCSVTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.technomagination.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BEA0BA411948E0F50029E9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParseToCSV.app/Contents/MacOS/ParseToCSV";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseToCSV/ParseToCSV-Prefix.pch";
+				INFOPLIST_FILE = "ParseToCSVTests/ParseToCSVTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.technomagination.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA0BA061948E0F50029E9B9 /* Build configuration list for PBXProject "ParseToCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA0BA3A1948E0F50029E9B9 /* Debug */,
+				BEA0BA3B1948E0F50029E9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA0BA3C1948E0F50029E9B9 /* Build configuration list for PBXNativeTarget "ParseToCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA0BA3D1948E0F50029E9B9 /* Debug */,
+				BEA0BA3E1948E0F50029E9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA0BA3F1948E0F50029E9B9 /* Build configuration list for PBXNativeTarget "ParseToCSVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA0BA401948E0F50029E9B9 /* Debug */,
+				BEA0BA411948E0F50029E9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA0BA031948E0F50029E9B9 /* Project object */;
+}
